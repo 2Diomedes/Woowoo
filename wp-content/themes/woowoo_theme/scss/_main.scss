@@ -1,0 +1,108 @@
+main {
+    max-width: 1280px;
+    margin: auto;
+
+    .mainnavpos {
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+
+        .mainnav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            list-style-type: none;
+            width: 100%;
+            margin-left: 5rem;
+ 
+            a {
+                color: black;
+                text-decoration: none;
+
+                li {}
+            }
+        }
+        .allprod {
+            text-align: right;
+            margin-right: 5rem;
+        }
+    }
+
+    .cards {
+        background: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+
+        .card {
+            margin: 2rem;
+            width: 300px;
+            border: none;
+            img {
+                width: 100%;
+                max-height: 300px;
+            }
+            a {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+
+// to mobile
+
+@media screen and (max-width:1280px) {
+    main {
+
+        .mainnavpos {
+
+            .mainnav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                list-style-type: none;
+                width: 50%;
+                margin-left: 1rem;
+
+                li {
+                }
+                
+                a {
+                    padding: 0.5rem;
+                    color: black;
+                    text-decoration: none;
+                    
+                    
+                    li {}
+                }
+            }
+            
+            .allprod {
+                padding: 0.5rem;
+                text-align: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .cards {
+            background: #ffffff;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 2rem auto;
+
+            .card {
+                margin: 2rem;
+                width: 300px;
+
+                img {
+                    width: 100%;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
