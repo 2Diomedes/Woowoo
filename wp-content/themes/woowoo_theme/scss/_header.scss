@@ -66,25 +66,25 @@ header {
     }
 
     .carousel {
-        margin-bottom: 2rem;
-        max-height: 600px;
+        margin: 5rem 0rem 3rem 0rem;
+        max-height: 500px;
         
     }
 
     .carousel-item {
-        height: 800px;
-        margin-top: 8rem;
+        height: 600px;
 
         img {
             max-width: 25%;
             max-height: 50%;
             margin-left: 25%;
             margin-right: 5%;
+            margin-top: 5%;
             float: left;
         }
 
         .carousel-text {
-            padding-top: 10rem;
+            padding-top: 5rem;
 
             h3 {
                 margin: 0.5rem;
